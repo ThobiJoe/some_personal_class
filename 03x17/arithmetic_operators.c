@@ -8,14 +8,15 @@ int main(void)
 	int b = 11;
 	int c = 21;
 	int d;
+	float e;
 	d = a + b + c;
 	printf("The sum of all values is: %d\n", d);
 	d = a - b - c;
 	printf("The subtraction of all values is: %d\n", d);
 	d = a * b * c;
 	printf("The multiplication of all values is: %d\n", d);
-	d = 40 / 21;
-	printf("The division of a and c is: %5.3f\n", d);
+	d = a / b;
+	printf("The division of a and c is: %5.3f\n", e);
 	d = a % b;
 	printf("The remainder after a is divided by b is: %d\n", d);
 	d = b++;
